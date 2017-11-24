@@ -1,0 +1,234 @@
+
+.banner{
+	width: 100%;
+	background: url(../img/banner.png) no-repeat center;
+	height:580px ;
+	background-size: 100% 580px;
+	-webkit-background-size: 100% 580px;
+	-moz-background-size: 100% 580px;
+	-o-background-size: 100% 580px;
+}
+.myProd{
+	width: 100%;
+	text-align: center;
+	margin: auto;
+	position: relative;
+}
+.prodcut{
+	width: 100%;
+	text-align: center;
+	margin: auto;
+	height: 386px;
+	background: url(../img/bg.png) no-repeat center;
+	background-size:  839px 100%;
+	-webkit-background-size: 839px 100%;
+	-moz-background-size:  839px 100%;
+	-o-background-size:  839px 100%;
+}
+
+.title{
+	color: #00a0ff;
+	font-size: 30px;
+	text-align: center;
+	margin: auto;
+}
+.list{
+	background-color: #fff;
+	text-align: center;
+	margin: auto;
+	margin-top: 100px;
+	white-space: nowrap;
+
+}
+.list span{
+	margin-right: -4px;
+	width: 180px;
+	height: 260px;
+	background-color: #fff;
+	display: inline-block;
+	border-left:1px solid #cfcece ;
+	border-top:1px solid #cfcece ;
+	border-bottom:1px solid #cfcece ;
+	 transition: all 0.6s; 
+	
+	
+}
+.list span:hover {
+  transform: scale(1.2);  
+	border: none;
+	box-shadow:-3px 0 3px #eeeeee, /*左边阴影*/  
+    3px 0 3px #eeeeee, /*右边阴影*/  
+    0 -3px 3px #eeeeee, /*顶部阴影*/  
+    0 3px 3px #eeeeee; /*底边阴影*/  
+    -webkit-box-shadow:-3px 0 3px #eeeeee, /*左边阴影*/  
+    3px 0 3px #eeeeee, /*右边阴影*/  
+    0 -3px 3px #eeeeee, /*顶部阴影*/  
+    0 3px 3px #eeeeee; /*底边阴影*/ 
+}
+.list span:nth-of-type(6){
+	border-right:1px solid #cfcece ;
+}
+.listImg{
+	margin-top: 20px;
+}
+.mt{
+	margin-top: 16px;
+}
+.fw{
+	font-size: 18px;
+	font-weight: 900;
+	color: #323333;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+.price{
+	font-size: 12px;
+	color: #969595;
+	margin-top: 30px;
+}
+.prodcutcList{
+	margin: auto;
+	text-align: center;
+}
+.prodcutcList1{
+	background-color: #f6f6f6;
+}
+.prodcutcListcomm{
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	margin-top: 30px;
+	white-space: nowrap;
+}
+.prodcutcListcomm_left{
+	display: inline-block;
+	margin-top: 60px;
+	margin-right: 40px;
+	margin-bottom: 40px;
+	
+}
+.prodcutcListcomm_left img{
+	vertical-align: middle;
+}
+.prodcutcListcomm_right{
+	display: inline-block;
+	margin-left: 40px;
+	font-size: 16px;
+	text-align: left;
+}
+.prodcutcList_tit{
+	color: #00a0ff;
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+    margin-top: 80px;
+}
+.agree,.apply_vip{
+	 position: relative;
+	 margin-top: 20px;
+}
+.agree:before {
+	content: '';
+    background-color: #009dff;
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	text-align: center;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	position: absolute;
+	left: -26px;
+	top: 4px;
+}
+.apply_vip:before{
+    content: '';
+    background-color: #00eaff;
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	text-align: center;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	position: absolute;
+	left: -26px;
+	top: 4px;
+}
+.know1{
+	display: inline-block;
+	margin-top: 30px;
+	padding: 5px 20px;
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-o-border-radius: 6px;
+	border: 1px solid  #009dff;
+	color: #009dff;
+}
+.know1:hover{
+	background-color: #00a2ff;
+	border: 1px solid #00a2ff;
+	color: white;
+}
+.prodcutcList2{
+	background: #fff;
+}
+.prodcutcList2_right{
+	display: inline-block;
+	margin-left: 50px;
+	text-align: left;
+}
+.prodcutcList2_left{
+	display: inline-block;
+	margin-right: 50px;
+}
+.prodcutcList2_left img{
+	vertical-align: middle;
+}
+.prodcutcList3_right{
+	display: inline-block;
+	margin-left: 190px;
+	text-align: left;
+}
+.prodcutcList3_left{
+	display: inline-block;
+	margin-right: 20px;
+	margin-top: 60px;
+	margin-bottom: 40px;
+}
+.prodcutcList3_left img{
+	vertical-align: middle;
+}
+.choose{
+	margin: auto;
+	text-align: center;
+}
+.chooseImg{
+	margin-top: 50px;
+}
+#footer{
+	background-color: #2d3a45;
+	width: 100%;
+	height: 180px;
+	margin: auto;
+	text-align: center;
+	color: white;
+	font-size: 16px;
+}
+.footerMidd,.footerRight{
+	display: inline-block;
+	position: relative;
+	top: 36px;
+	text-align: left;
+	margin-left: 2%;
+}
+.about{
+	display: inline-block;
+	margin-left: 20px;
+}
+.footerLeft{
+	display: inline-block;
+	margin-right: 27%;
+	position: relative;
+	top:4px;
+	
+}
